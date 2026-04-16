@@ -43,3 +43,18 @@ void bubleSortAray(){
         pass++;
     }while (pass <= nPanjang);
 }
+
+void display(){
+    
+    cout << "\n==========================================\n";
+    cout << "\n Elemen Array Setelah di Urutkan (Asc) \n";
+    cout << "\n==========================================\n";
+
+    for (int j = 0; j < nPanjang; j++){
+        cout << elemen[j];
+        if (j < nPanjang - 1){
+            cout << "->";
+        }
+    }
+    cout << endl;
+}
